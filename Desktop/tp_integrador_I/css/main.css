@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h6 {
+    font-size: 1.5em;
+}
+
+
+.text-center {
+    margin: 20px;
+}
+h1 {
+    font-size: 2em;
+    position: relative;
+    right: 150px;
+    color: white;
+}
+
+nav > ul > a {
+    font-size: 1.5em;
+    color: white;
+}
+
+/* .cuadro {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto 1fr;
+}
+
+nav {
+    grid-column: span 12;
+    grid-row: ;
+}
+
+header > div {
+    grid-column: span 12;
+}
+
+header > div > div {
+    grid-column: 6 / 13;
+} */
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgb(66, 62, 80);
+    max-height: 10em;
+    flex-direction: row;
+}
+
+.logo {
+    flex-grow: 1;
+    padding: 5em;
+}
+
+.logo img {
+    max-height: 80px; 
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    flex-grow: 2;
+    justify-content: space-around;
+    padding: 4em;
+}
+
+
+/* Inicio Form */
+
+
+.enviarFormulario {
+    background-color: rgb(34, 209, 34);
+    border-radius: 0.5em;
+    width: 1080px;
+    height: 40px;
+    margin: 10px;
+    color: white;
+    font-size: 2em;
+}
+
+/*Inicio Footer*/
+
+footer {
+    background-color: rgb(66, 62, 80);
+    position: static;
+    bottom: 0px;
+    width: 98.7vw;
+    left: 0px;
+    padding: 1em;
+    height: 6em;
+
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 3em;
+    margin: 1em;
+    padding: 1em;
+    color: white;
+    font-family: 'Open Sans';
+}
+
+footer div li {
+    display:  inline;
+    margin-left: 1em;
+}
