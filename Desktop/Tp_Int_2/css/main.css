@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-size: 11px;
+}
+
+.container {
+    height: 6em;
+}
+
+/* Inicio Main */
+
+/* .cajas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2em;
+    margin: 3em;
+}
+
+.cajas > div {
+    padding: 5em;
+}
+
+.cajauno {
+    border: 3px solid blue;
+}
+
+.cajados {
+    border: 3px solid red;
+}
+
+.cajatres {
+    border: 3px solid green;
+} */
+
+/* #tipos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#tipo > .tarjeta1 {
+    grid-column: 1;
+}
+
+#tipo > .tarjeta2 {
+    grid-column: 2;
+}
+
+#tipo > .tarjeta3 {
+    grid-column: 3;
+} */
+
+#tarjetas {
+    padding: 1em;
+    margin: 2em;
+    
+}
+
+#formulario {
+    padding: 4em;
+}
+
+
+#aPagar {
+    border: 1px solid lightblue;
+    background-color: lightblue;
+    padding: 0.5em;
+}
+
+
+
+/*Inicio Footer*/
+
+footer {
+    background-color: rgb(66, 62, 80);
+    position: absolute;
+    bottom: 0px;
+    width: 98.7vw;
+    left: 0px;
+    padding: 1em;
+    height: 6em;
+
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 3em;
+    margin: 1em;
+    padding: 1em;
+    color: white;
+    font-family: 'Open Sans';
+}
+
+footer div li {
+    display:  inline;
+    margin-left: 1em;
+}
