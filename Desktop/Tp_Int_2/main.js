@@ -14,16 +14,16 @@ function displayPurchase () {
     let cantidad = document.getElementById("inputCantidad");
     let categoria = document.getElementById("inputState");
     
-    if (cantidad.value == 1 || cantidad.value == 2 || cantidad.value == 3) {
+    if (cantidad.value > 0 ) {
         if (categoria.value == "Estudiante") {
-            var resultado = (200 * 0.8 * cantidad.value);
-            document.getElementById('aPagar').innerHTML = ('Total a Pagar: ' + resultado);
+            var resultado = (200 * 0.2 * cantidad.value);
+            document.getElementById('aPagar').innerHTML = ('Total a Pagar: ' + "$" + resultado);
         } else if (categoria.value == 'Trainee') {
             var resultado = (200 * 0.5 * cantidad.value);
-            document.getElementById('aPagar').innerHTML = ('Total a Pagar: ' + resultado);
+            document.getElementById('aPagar').innerHTML = ('Total a Pagar: ' + "$" + resultado);
         } else if (categoria.value == 'Junior') {
-            var resultado = (200 * 0.15 * cantidad.value);
-            document.getElementById('aPagar').innerHTML = ('Total a Pagar: ' + resultado);
+            var resultado = (200 * 0.85 * cantidad.value);
+            document.getElementById('aPagar').innerHTML = ('Total a Pagar: ' + "$" + resultado);
         }
     }
 };

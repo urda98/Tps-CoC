@@ -28,59 +28,6 @@
             </div>
     </nav>
     <main class="container">
-    <!-- <section class="container">
-        <div class="cajas">
-            <div class="cajauno">
-                <h2>Estudiante</h2>
-                <p>Tienen descuento</p>
-                <p>80%</p>
-                <p>*presentar documentación</p>
-            </div>
-            <div class="cajados">
-                <h2>Trainee</h2>
-                <p>Tienen descuento</p>
-                <p>50%</p>
-                <p>*presentar documentación</p>
-            </div>
-            <div class="cajatres">
-                <h2>Junior</h2>
-                <p>Tienen descuento</p>
-                <p>15%</p>
-                <p>*presentar documentación</p>
-            </div>
-        </div>
-    </section> -->
-        <!-- <div class="container" id="Tipos">
-            <div class="card-group">
-                <div class="tarjeta1">
-                    <div class="card">          
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tarjeta2">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-            </div>
-            <div class="tarjeta3">
-                <div class="card">
-                    <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>            
-                </div>
-            </div>
-        </div> -->
     <div class="container" id="tarjetas">
         <div class="row row-cols-1 row-cols-md-3">
             <div class="col mb-4">
@@ -123,46 +70,46 @@
                 <h4>VALOR DE TICKET $200</h4>
             </div>
             <br>
-            <form>
+        <form>
                 <div class="row">
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Nombre">
+                        <input type="text" class="form-control" placeholder="Nombre" required>
                     </div>
                     <div class="col">
-                    <input type="text" class="form-control" placeholder="Apellido">
+                    <input type="text" class="form-control" placeholder="Apellido" required>
                     </div>
                 </div>
-            </form>
-            <br>
-            <div>
-                <input type="text" class="form-control" placeholder="Correo">
-            </div>
-            <br>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="inputCantidad">Cantidad</label>
-                    <input type="text" class="form-control" id="inputCantidad">
+            
+                <br>
+                <div>
+                    <input type="text" class="form-control" placeholder="Correo" required>
                 </div>
-                <div class="form-group col-md-4"> 
-                    <label for="inputState">Categoria</label>
-                    <select id="inputState" class="form-control" >
-                        <option selected>Estudiante</option>
-                        <option>Trainee</option>                        
-                        <option>Junior</option>
-                    </select>
+                <br>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputCantidad">Cantidad</label>
+                        <input type="text" class="form-control" id="inputCantidad" required>
+                    </div>
+                    <div class="form-group col-md-4"> 
+                        <label for="inputState">Categoria</label>
+                        <select id="inputState" class="form-control" requiredS>
+                            <option selected>Estudiante</option>
+                            <option>Trainee</option>                        
+                            <option>Junior</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <p id="aPagar">Total a Pagar: $</p>
+                </div>
+                <br>
+                <div>
+                    <button type="reset" class="btn btn-secondary btn-success" id="resetButton">Borrar</button>
+                    <button type="button" class="btn btn-success" id="resumeButton">Resumen</button >      
                 </div>
             </div>
-            <br>
-            <div>
-                <p id="aPagar">Total a Pagar: $</p>
-            </div>
-            <br>
-            <div>
-                <button type="reset" class="btn btn-secondary btn-success" id="resetButton">Borrar</button>
-                <button type="button" class="btn btn-success" id="resumenButton">Resumen</button >      
-            </div>
-        </div>
-
+        </form>
     </main>
     <footer> <!-- Inicio Footer -->
         <div class="footer-content">
